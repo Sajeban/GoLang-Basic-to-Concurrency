@@ -12,4 +12,9 @@ func main() {
 	name3 := "shorthandmethod" //Shorthand method to define a variable
 	fmt.Println(name1, age1, name2, age2, isStudent, name3)
 	fmt.Printf("%T\n", pi) //To find the data type of a variable
+	//first := "First Variable"
+	//second := "Second Variable"
+	first, second := "First Variable", "Second Variable" //Defining two variable at once
+	fmt.Println(first, second)
+
 }
