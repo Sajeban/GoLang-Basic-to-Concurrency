@@ -9,6 +9,7 @@ func main() {
 	var age2 = 22
 	var isStudent = true
 	const pi = 3.14
-	fmt.Println(name1, age1, name2, age2, isStudent)
+	name3 := "shorthandmethod" //Shorthand method to define a variable
+	fmt.Println(name1, age1, name2, age2, isStudent, name3)
 	fmt.Printf("%T\n", pi) //To find the data type of a variable
 }
